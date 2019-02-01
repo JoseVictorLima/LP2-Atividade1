@@ -39,5 +39,15 @@ namespace LP2_Atividade1
           get{ return Titular + " (CP)";}
       }
 
+      public override void Depositar(decimal valor)
+        {
+            base.Depositar(valor);
+        }
+
+        public override void Sacar(decimal valor)
+        {
+            base.Sacar(valor);
+        }
+
     }
 }
