@@ -9,11 +9,11 @@ namespace LP2_Atividade1
 
         public decimal Saldo
         {
-            get;
+            get {return this.saldo;}
         }
         public string Titular
         {
-            get;
+            get {return this.titular;}
         }
         public Conta(string t)
         {

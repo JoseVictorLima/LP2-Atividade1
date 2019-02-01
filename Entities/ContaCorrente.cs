@@ -7,13 +7,11 @@ namespace LP2_Atividade1
         public const decimal Taxa = 0.10M;
 
         public ContaCorrente(string t):base(t)
-        {
-
-        }
+        {}
 
         public override string Id
         {
-            get{ return Titular + " (CC)";}
+            get{return Titular + " (CC)";}
         }
 
         public override void Depositar(decimal valor)
